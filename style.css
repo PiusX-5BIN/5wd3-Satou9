@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}  
+body {
+    font-family: sans-serif;
+    }
+    
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('Images/Header\ image.jpg ');
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    }
+    
+    li {
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+    color: #fff;
+}
+   .nav{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .text-overlay h1 {
+    font-size: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .text-overlay p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  .line {
+    border: none;
+    border-top: 2px solid;
+    margin: 10px 0;
+    color: #ffff;
+    width: 600px;
+  }
+
+.profile {
+    align-items: center;
+    display: flex;
+  }
+
+  .profile p{
+    padding: 50px;
+  }
+  
+  #Me{
+    margin-top: 50px;
+  }
+
+  .profile img{
+    height: 700px;
+    border-left:50px ;
+    border-left: 2rem solid blue;
+  }
+
+  .profile-container{
+
+    padding: 50px;
+    align-items: center;
+    border-left: solid blue;
+    padding: 50px;
+  }
+
+
+  
+  .blog-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .blog-post {
+    padding:  20px;
+    text-align: center;
+    border-top: 2px solid black;
+  }
+
+  .blog-post img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .blog-content {
+    margin-top: 10px;
+  }
+  
+  .read-more {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    color: rgb(20, 20, 122);
+  }
+
+  
+  
+  @media only screen and (min-width: 768px) {
+    .blog-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .blog-post {
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+    }
+  
+    .blog-post img {
+      width: auto;
+      max-height: 200px;
+      margin: 0 20px 0 0;
+      order: 2;
+    }
+  
+    .blog-content {
+      flex: 1;
+    }
+  }
+
+
+
+
+

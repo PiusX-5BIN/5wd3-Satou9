@@ -16,10 +16,7 @@ body {
     padding: 0;
 }
 
-img{
-    height: 100px;
 
-}
 
 /* UTILITIES */
 * {
@@ -34,12 +31,105 @@ img{
     
     a {
     text-decoration: none;
+    color: black;
     }
     
     li {
     list-style: none;
     padding: 10px;
     align-items: center;
+    color: black;
+}
+   .nav{
+    justify-content: space-between;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 20px;
+}
 
+.image-container {
+    position: relative;
+    display: inline-block;
+    padding: 10%;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .text-overlay h1 {
+    font-size: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .text-overlay p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
 
+  .line {
+    border: none;
+    border-top: 2px solid;
+    margin: 10px 0;
+    color: #ffff;
+    width: 600px;
+  }
+
+  .profile {
+    align-items: center;
+    display: flex;
+  }
+
+  .profile p{
+    padding: 50px;
+  }
+  
+  #Me{
+    margin-top: 50px;
+  }
+
+  .profile img{
+    height: 700px;
+    border-left:50px ;
+    border-left: 2rem solid blue;
+  }
+
+  .profile-container{
+
+    padding: 50px;
+    align-items: center;
+    border-left: solid blue;
+    padding: 50px;
+  }
+  .first-blog{
+    align-items: center;
+    display: flex;
+  }
+  .first-blog img{
+    height: 400px;
+
+  }
+
+  .container{
+    margin-top: 15px;
+  }
+
+  .container h1{
+    letter-spacing: 1px;
+    font-size: 50px;
+    color: blueviolet;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+
+#Background{
+    background: url('Images/Header\ image.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
 }
