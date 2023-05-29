@@ -1,0 +1,28 @@
+:root{
+    --first-color: #e7eaf6;  
+    --second-color : #a2a8d3; 
+    --third-color : #38598b; 
+    --fourth-color : #113f67;
+    --fifth-color: #fff; 
+}
+
+
+.first-color{
+    background-color: var(--first-color);
+}
+
+.second-color{
+    color:var(--second-color);
+}
+
+.third-color{
+    color:var(--third-color);
+}
+
+.fourth-color{
+    color: var(--fourth-color);
+}
+
+.fifth-color{
+    color:var(--fifth-color);
+}

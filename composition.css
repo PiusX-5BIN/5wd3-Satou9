@@ -6,15 +6,8 @@
   
   body {
     font-family: sans-serif;
-    background: var(--third-color); 
   }
 
-  :root{
-    --first-color: #5585b5; 
-    --second-color: #53a8b6; 
-    --third-color: #ebf7ff; 
-    --fourth-color: #bbe4e9; 
-  }
 
   
   .container {
@@ -27,18 +20,15 @@
   
   a {
     text-decoration: none;
-    color: #fff;
   }
   
   li {
     list-style: none;
     padding: 10px;
     align-items: center;
-    color: #fff;
   }
   
   .nav {
-   background-color: rgb(13, 34, 34);
     display: flex;
     gap: 3rem;
     align-items: center;
@@ -53,7 +43,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
     padding: 20px;
     text-align: center;
     padding: 20px;
@@ -73,7 +62,6 @@
     border: none;
     border-top: 2px solid;
     margin: 10px 0;
-    color: #ffff;
     width: 100%;
   }
   
@@ -116,7 +104,7 @@
   .blog-post {
     padding: 20px;
     text-align: center;
-    border-top: 2px solid black;
+    border-top: 2px solid ;
   }
   
   .blog-post img {
