@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+  }
+
+.container {
+    background-image: url('Images/Header image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+  
+a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+  
+  .nav {
+    position: fixed;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  
+  .text-overlay h1 {
+    font-size: 150px;
+  }
+  
+  .text-overlay p {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .line {
+    border: none;
+    color: white;
+
+  }
+ 
+  .profile-container {
+    border-left: solid;
+  }
+
+  .head-one{
+    font-size: 40px;
+  }
+  
+  .post-title {
+    margin-top: 0;
+  }
+
+  .post-meta {
+    font-size: 14px;
+  }
+
+
+  .read-more {
+    text-decoration: none;
+
+  }
+
