@@ -3,7 +3,7 @@ body {
   }
 
 .container {
-    background-image: url('Images/Header image.jpg');
+    background-image: url('Images/blue.png');
     background-size: cover;
     background-position: center;
 }
@@ -34,12 +34,13 @@ a {
     font-size: 16px;
     text-align: center;
   }
+
   
   .line {
-    border: none;
-    color: white;
-
+    height: 1px; /* Specify the height of the line */
+    background-color: white; /* Specify the color of the line */
   }
+  
  
   .profile-container {
     border-left: solid;
@@ -62,4 +63,38 @@ a {
     text-decoration: none;
 
   }
+
+
+
+
+  .container2 {
+    background-color: #f0f0f0; /* Background color of the navigation bar container */
+  }
+  
+  nav {
+    padding: 10px; /* Spacing within the navigation bar */
+  }
+  
+  .nav2 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav2 li {
+    margin-right: 10px; /* Spacing between navigation items */
+  }
+  
+  .nav2 li a {
+    text-decoration: none;
+    color: #333; /* Text color of navigation items */
+    padding: 10px; /* Spacing within each navigation item */
+  }
+  
+  .nav2 li a:hover {
+    background-color: #ddd; /* Background color on hover */
+    color: #000; /* Text color on hover */
+  }
+  
 

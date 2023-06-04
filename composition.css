@@ -44,32 +44,29 @@
     margin: 10px 0;
     width: 100%;
     color: white;
+    height: 5px;
+
   }
   
   
   .profile p {
-    padding: 50px;
+    padding: 30px;
   }
   
   #Me {
-    margin-top: 50px;
+    padding-left: 150px;
+    padding-top: 10%;
   }
-  
+  é
   .profile img {
-    width: 100%;
-    height: auto;
-    border-left: 1rem solid;
+    width: 90%;
+    height: 120%;
   }
   
   .profile-container {
     padding: 50px;
-    border-left: solid;
-    padding: 50px;
   }
   
-  #post {
-    padding: 30px;
-  }
   
   .blog-container {
     gap: 20px;
@@ -122,9 +119,8 @@
   }
   
   .profile img {
-    height: 700px;
+    height: 100%;
     margin-left: 50px;
-    width: auto;
     max-width: 400px;
     margin-bottom: 20px;
   }
@@ -166,7 +162,15 @@
   .black{
     color: #333;
   }
+  .project{
+    padding-top: 15%;
+  }
 
+
+  #lo{
+    padding: 20%;
+    align-items: center;
+  }
 
   @media only screen and (min-width: 768px) {
     main {
@@ -190,10 +194,14 @@
       padding: 50px;
       margin: 0;
     }
-  
-    .profile img {
-      margin: 0;
+    .project{
+      padding-top: 13%;
+      margin: 4%;
     }
+  
+    /*.profile img {
+      margin: 0;
+    }*/
 
     .blog-container {
       grid-template-columns: 1fr 1fr;
@@ -215,6 +223,7 @@
     .blog-content {
       flex: 1;
     }
+    
   }
 
 
