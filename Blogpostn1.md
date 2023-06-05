@@ -1,4 +1,5 @@
 # Databases
+![Image databases](Images/Database.png)  
 
 ## Intro
 In today's digital world data is more valuable than ever before. Data is the key to smooth functioning of everything. The succes of a company heavily depends on how well they will utilize their data, and this is where database comes into view, you need a databese or a place to store data. So what is database? and what different types of database are there?

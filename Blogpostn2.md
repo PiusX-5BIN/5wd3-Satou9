@@ -1,4 +1,5 @@
 # Computer graphics
+![image Computer grapgics](images/graphic%20computer.jpg)  
 
 Graphics refer to sketches, drawings, or specialized networks that visually convey meaningful information. Computer Graphics involves manipulating sets of images or creating pixel-based images on a computer. It finds applications in digital photography, film, entertainment, electronic devices, and other essential technologies. This field, encompassing various aspects, is extensive within computer science. Computer Graphics finds application in UI design, rendering, geometric objects, animation, and more. In many contexts, Computer Graphics is abbreviated as CG. Several tools are utilized for implementing Computer Graphics, including the fundamental <graphics.h> header file in Turbo-C, the advanced Unity framework, and even OpenGL.
 

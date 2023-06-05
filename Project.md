@@ -5,8 +5,8 @@ This is my first website, it's a project that was assigned to me by my IT teache
 
 For this assignment, our task was to select a superhero whom we deeply admire and create a website dedicated to them. After careful consideration, I chose Homura Akemi as my source of inspiration. Throughout my childhood and beyond, Homura Akemi has held a special place in my heart and has been a constant source of motivation for me.
 
-[Project](images/Project%20website%201.png)
-[Project](images/Project%20Hero%20website2.png)
+![Project](Images/Project%20website%201.png)
+![Project](Images/Project%20Hero%20website2.png)
 
 Feel free to further customize the introduction to reflect your personal experiences and emotions related to the project.
 

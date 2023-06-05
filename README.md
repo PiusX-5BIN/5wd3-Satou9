@@ -109,7 +109,8 @@ De website bestaat uit minstens 3 delen:
 
 | Term                      | Definitie                                                                                                                                                        |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HTML                      |                                                                                                                                                                 |
+| HTML                      |Hypertext Markup Language, a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages.
+|
 | CSS                       | Een taal die gebruikt wordt om de opmaak van een website te bepalen. CSS staat voor Cascading Style Sheets.                                                     |
 | commentaar                | Tekst in de code die niet wordt uitgevoerd of weergegeven.                                                                                                      |
 | server                    | Een computer of systeem dat diensten verleent aan andere computers of systemen, meestal via het internet.                                                     |

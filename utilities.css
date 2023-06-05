@@ -1,11 +1,16 @@
 :root{
-    --first-color: #e7eaf6;  
+    --first-color: #ececec;   
     --second-color : #a2a8d3; 
     --third-color : #38598b; 
     --fourth-color : #113f67;
     --fifth-color: #fff; 
+    --color: #888;
+
 }
 
+body{
+    font-family: system-ui;
+}
 
 .first-color{
     background-color: var(--first-color);
@@ -26,3 +31,14 @@
 .fifth-color{
     color:var(--fifth-color);
 }
+
+.read-more{
+    background-color: #333;
+    color: var(--fifth-color);
+
+}
+
+.container-project {
+    background-color: #f0f0f0;
+  }
+  
