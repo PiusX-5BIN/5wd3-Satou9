@@ -38,19 +38,16 @@ li {
 }
 
 .line {
-  border: none;
-  border-top: 2px solid;
   margin: 10px 0;
   width: 100%;
-  color: white;
   height: 5px;
 
 }
 
-/*Profile This is le*/
+/*Profile*/
 
 .profile p {
-  padding: 30px;
+  padding: 50px;
 }
 
 #Me {
@@ -61,6 +58,13 @@ li {
 .profile img {
   width: 90%;
   height: 120%;
+}
+
+.profile img {
+  height: 100%;
+  margin-left: 50px;
+  max-width: 400px;
+  margin-bottom: 20px;
 }
 
 .profile-container {
@@ -100,69 +104,49 @@ li {
 
 footer {
   padding: 3px;
-  background-color: black;
-  color: white;
 }
 
-
-.head-one {
-  padding: 20px;
-}
-
-.img-blog {
-  padding: 20px;
-  height: 20%;
-  width: auto;
-
-}
-
-.profile-container {
-  padding: 50px;
-}
-
-
-.profile-text {
-  padding: 50px;
-}
-
-.profile img {
-  height: 100%;
-  margin-left: 50px;
-  max-width: 400px;
-  margin-bottom: 20px;
-}
-
+/*blog post page*/
 main {
-  padding: 20px;
+  padding: 10px;
 }
 
-.blog-post7 {
-  margin-bottom: 30px;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 20px;
+.photo-project {
+  height: 250px;
 }
 
-#photo-project {
-  padding: 20px;
-  height: 500px;
-}
-.photo-project{
-  height: 20px;
+#photo-project-2{
+  height: 300px;
 }
 
 .post-title {
-  margin-top: 0;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post-meta {
+  font-style: italic;
+  margin-bottom: 10px;
 }
 
 .post-content-project {
+  margin-top: 20px;
+}
+
+.post-content-project h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.post-content-project p {
+  margin-bottom: 10px;
+}
+
+.post-content-project ul {
   margin-top: 10px;
 }
 
-.read-more {
-  padding: 5px 10px;
-  margin-top: 10px;
-}
-
-.project {
-  padding-top: 15%;
+.post-content-project li {
+  margin-bottom: 5px;
 }

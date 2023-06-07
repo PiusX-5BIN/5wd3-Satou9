@@ -64,29 +64,10 @@ a {
 
   }
 
-/*Navbar for project and blog page*/
-  
-  .nav-project {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .nav-project li {
-    margin-right: 10px; 
-  }
-  
-  .nav-project li a {
+  /*nav for blog post own page*/
+  ul.nav-project li a {
     text-decoration: none;
-    color: #333; 
-    padding: 10px; 
-  }
-  
-  .nav2 li a:hover {
-    background-color: #ddd;
-    color: #000;
+
   }
 
-  
 

@@ -1,44 +1,65 @@
-:root{
-    --first-color: #ececec;   
-    --second-color : #a2a8d3; 
-    --third-color : #38598b; 
-    --fourth-color : #113f67;
-    --fifth-color: #fff; 
+:root {
+    --first-color: #ececec;
+    --second-color: #a2a8d3;
+    --third-color: #38598b;
+    --fourth-color: #113f67;
+    --fifth-color: #fff;
     --color: #888;
 
 }
 
-body{
+body {
     font-family: system-ui;
 }
 
-.first-color{
+.first-color {
     background-color: var(--first-color);
 }
 
-.second-color{
-    color:var(--second-color);
+.second-color {
+    color: var(--second-color);
 }
 
-.third-color{
-    color:var(--third-color);
+.third-color {
+    color: var(--third-color);
 }
 
-.fourth-color{
+.fourth-color {
     color: var(--fourth-color);
 }
 
-.fifth-color{
-    color:var(--fifth-color);
+.fifth-color {
+    color: var(--fifth-color);
 }
 
-.read-more{
+/*extra color*/
+
+.read-more {
     background-color: #333;
     color: var(--fifth-color);
 
 }
 
+footer {
+    background-color: black;
+    color: white;
+}
+
+#bron {
+    color: var(--fifth-color);
+}
+
+/*nav blog own page*/
+
 .container-project {
-    background-color: #f0f0f0;
-  }
-  
+    background-color: #333;
+}
+
+
+ul.nav-project li a {
+    color: #fff;
+}
+
+ul.nav-project li a:hover {
+    background-color: #555;
+}

@@ -7,4 +7,4 @@ In addition to my academic pursuits, I have many interests and hobbies. Reading 
 
 This year has been a bit of a challenge for me, as I made the difficult decision to change my degree program in the middle of the year. In the first semester, I studied economics and math, but I discovered that math was not my forte and I struggled with it. However, I remained positive and believed that everything happens for a reason. As a result, I changed my degree program during the second semester and I'am now focusing on my studies and elevating myself.
 
-![](Link URL)  
+![Image databases](Images/girl1.jpg)  

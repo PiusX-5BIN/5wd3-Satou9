@@ -64,6 +64,12 @@ footer {
 
 }
 
+/*nav blog own page*/
+
+ul.nav-project li {
+  display: inline-block;
+}
+
 /*media query*/
 
 @media only screen and (min-width: 768px) {
@@ -71,12 +77,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-
-  .blog-post7 {
-    flex: 0 0 50%;
-    padding-right: 30px;
-    box-sizing: border-box;
   }
 
   .profile {
@@ -114,16 +114,33 @@ footer {
     flex: 1;
   }
 
-  .post-content-project {
-    align-items: center;
+}
+
+/* Media query for desktop styling for blog posts and project page */
+@media (min-width: 768px) {
+  .container-project {
     display: flex;
-    padding: 20%;
+    justify-content: center;
   }
 
-  #photo-project {
-    padding-left: 10%;
-    height: 50%;
+  nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .blog-post-project {
+    width: 768px;
+    margin-top: 60px;
+  }
+
+  .photo-project {
+    height: 700px;
     align-items: center;
+  }
+
+  #photo-project-2{
+    height: 500px;
   }
 
 }
